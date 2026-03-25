@@ -1,0 +1,11 @@
+cluster.name: hive-analysis
+node.name: hive-node-1
+
+discovery.type: single-node
+network.host: 127.0.0.1
+
+path.data: /usr/share/elasticsearch/data
+path.logs: /usr/share/elasticsearch/logs
+
+# disabled for local dev — set to true for production and run: elasticsearch-setup-passwords auto
+xpack.security.enabled: false
